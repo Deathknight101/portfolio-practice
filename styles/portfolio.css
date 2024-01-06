@@ -48,15 +48,66 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header style */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .dp{
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner .dp {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* main section */
+.section-des{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
+
+/* about section style */
+.about {
+    text-align: center;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 130px;
 }
